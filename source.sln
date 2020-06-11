@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Quetzal", "ToepassingsOpdrachtB1\Quetzal.pyproj", "{9FE83616-CC21-4783-A09E-A6F17034CC3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FE83616-CC21-4783-A09E-A6F17034CC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE83616-CC21-4783-A09E-A6F17034CC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62409729-6F5F-470C-B176-7E191AD63EDE}
+	EndGlobalSection
+EndGlobal

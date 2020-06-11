@@ -1,0 +1,71 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9fe83616-cc21-4783-a09e-a6f17034cc3d</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Quetzal</Name>
+    <RootNamespace>ToepassingsOpdrachtB1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ADTs\BinaireZoekboom.py" />
+    <Compile Include="ADTs\CirculairGelinkteKetting.py" />
+    <Compile Include="ADTs\DubbelGelinkteKetting.py" />
+    <Compile Include="ADTs\Hashmap.py" />
+    <Compile Include="ADTs\Heap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADTs\Queue.py" />
+    <Compile Include="ADTs\RedBlackTree.py" />
+    <Compile Include="ADTs\Stack.py" />
+    <Compile Include="ADTs\TweeDrieBoom.py" />
+    <Compile Include="ADTs\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="system.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\bestelling.py" />
+    <Compile Include="System\chili.py" />
+    <Compile Include="System\Chocolademelk.py" />
+    <Compile Include="System\Chocoladeshot.py" />
+    <Compile Include="System\Gebruiker.py" />
+    <Compile Include="System\History.py" />
+    <Compile Include="System\honing.py" />
+    <Compile Include="System\Marshmallow.py" />
+    <Compile Include="System\stock.py" />
+    <Compile Include="System\Werknemer.py" />
+    <Compile Include="System\__init__.py" />
+    <Compile Include="wrapper.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ADTs\" />
+    <Folder Include="System\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

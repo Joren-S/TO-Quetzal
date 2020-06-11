@@ -1,0 +1,312 @@
+<html>
+	<head>
+		<title>
+			GAS - HTML Log
+		</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+		<style>
+			body{
+				background-color:#999999;
+				margin:0;
+				font-family: Ubuntu;
+			}
+			div.container{
+				margin: 0px auto;
+				background-color:#fdfdfd;
+				width: 90%;
+				height: 100%;
+				padding:30px;
+				box-shadow: 0px 0px 30px 10px #777777;
+			}
+			div.lowerbar{
+				font-style: italic;
+				float:left;
+				margin:30px;
+			}
+			div.middleblock{
+				margin:10px;
+			}
+			div.table-title {
+			   display: block;
+			  margin: auto;
+			  max-width: 600px;
+			  padding:5px;
+			  width: 100%;
+			}
+			.table-title h3 {
+			   color: #fafafa;
+			   font-size: 30px;
+			   font-weight: 400;
+			   font-style:normal;
+			   font-family: "Roboto", helvetica, arial, sans-serif;
+			   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+			   text-transform:uppercase;
+			}
+			/*** Table Styles **/
+
+			.table-fill {
+			  background: white;
+			  border-radius:3px;
+			  border-collapse: collapse;
+			  height: 320px;
+			  margin: auto;
+			  max-width: 600px;
+			  padding:5px;
+			  width: 100%;
+			  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			  animation: float 5s infinite;
+			}
+			 
+			th {
+			  color:#D5DDE5;;
+			  background:#1b1e24;
+			  border-bottom:4px solid #9ea7af;
+			  border-right: 1px solid #343a45;
+			  font-size:14px;
+			  font-weight: 100;
+			  padding:24px;
+			  text-align:left;
+			  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+			  vertical-align:middle;
+			}
+
+			th:first-child {
+			  border-top-left-radius:3px;
+			}
+			 
+			th:last-child {
+			  border-top-right-radius:3px;
+			  border-right:none;
+			}
+			  
+			tr {
+			  border-top: 1px solid #C1C3D1;
+			  border-bottom-: 1px solid #C1C3D1;
+			  color:#666B85;
+			  font-size:16px;
+			  font-weight:normal;
+			  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+			}
+			 
+			tr:hover td {
+			  background:#4E5066;
+			  color:#FFFFFF;
+			  border-top: 1px solid #22262e;
+			}
+			 
+			tr:first-child {
+			  border-top:none;
+			}
+
+			tr:last-child {
+			  border-bottom:none;
+			}
+			 
+			tr:nth-child(odd) td {
+			  background:#EBEBEB;
+			}
+			 
+			tr:nth-child(odd):hover td {
+			  background:#4E5066;
+			}
+
+			tr:last-child td:first-child {
+			  border-bottom-left-radius:3px;
+			}
+			 
+			tr:last-child td:last-child {
+			  border-bottom-right-radius:3px;
+			}
+			 
+			td {
+			  background:#FFFFFF;
+			  padding:20px;
+			  text-align:left;
+			  vertical-align:middle;
+			  font-weight:300;
+			  font-size:18px;
+			  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+			  border-right: 1px solid #C1C3D1;
+			}
+
+			td:last-child {
+			  border-right: 0px;
+			}
+
+			th.text-left {
+			  text-align: left;
+			}
+
+			th.text-center {
+			  text-align: center;
+			}
+
+			th.text-right {
+			  text-align: right;
+			}
+
+			td.text-left {
+			  text-align: left;
+			}
+
+			td.text-center {
+			  text-align: center;
+			}
+
+			td.text-right {
+			  text-align: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			
+			<div class="middleblock">
+				<div class"table-title">
+					<h1>Bestellingen</h1>
+				</div>
+				<table>
+					<tr>
+						<th>
+							Tijdstip
+						</th>
+						<th>
+							Werknemerstack
+						</th>
+							<th>
+Jane Doe
+</th>
+<th>
+Erik Prins
+</th>
+<th>
+Wim Hofkens
+</th>
+
+						<th>
+							Nieuwe bestellingen
+						</th>
+						<th>
+							Wachtende bestellingen
+						</th>
+							<th>
+shot_wit
+</th>
+<th>
+shot_melk
+</th>
+<th>
+shot_bruin
+</th>
+<th>
+shot_zwart
+</th>
+<th>
+honing
+</th>
+<th>
+marshmallow
+</th>
+<th>
+chili
+</th>
+
+					</tr>
+					<tr>
+<td>0</td><td> | 5, 2</td><td>
+</td><td>-
+</td><td>
+</td><td></td><td></td><td>10</td> 
+<td>30</td> 
+<td>20</td> 
+<td>5</td> 
+<td>10</td> 
+<td>10</td> 
+<td>5</td> 
+</tr> 
+<tr>
+<td>1</td><td> | 5, 2</td><td>
+</td><td>-
+</td><td>
+</td><td>8</td><td>8</td><td>10</td> 
+<td>29</td> 
+<td>20</td> 
+<td>5</td> 
+<td>10</td> 
+<td>9</td> 
+<td>4</td> 
+</tr> 
+<tr>
+<td>2</td><td> | 5</td><td>6</td><td>-
+</td><td>
+</td><td>9</td><td>9</td><td>10</td> 
+<td>29</td> 
+<td>20</td> 
+<td>3</td> 
+<td>10</td> 
+<td>8</td> 
+<td>3</td> 
+</tr> 
+<tr>
+<td>2</td><td> | 5</td><td>6</td><td>-
+</td><td>
+</td><td>7</td><td>9, 7</td><td>10</td> 
+<td>28</td> 
+<td>20</td> 
+<td>3</td> 
+<td>10</td> 
+<td>7</td> 
+<td>3</td> 
+</tr> 
+<tr>
+<td>3</td><td> | </td><td>4</td><td>-
+</td><td>4</td><td>7</td><td>7</td><td>10</td> 
+<td>32</td> 
+<td>20</td> 
+<td>3</td> 
+<td>10</td> 
+<td>7</td> 
+<td>3</td> 
+</tr> 
+<tr>
+<td>3</td><td> | 2</td><td>4</td><td>
+</td><td>4</td><td>7</td><td>7</td><td>10</td> 
+<td>32</td> 
+<td>20</td> 
+<td>3</td> 
+<td>10</td> 
+<td>7</td> 
+<td>3</td> 
+</tr> 
+<tr>
+<td>3</td><td> | 2</td><td>4</td><td>
+</td><td>4</td><td>7</td><td>7</td><td>10</td> 
+<td>32</td> 
+<td>20</td> 
+<td>3</td> 
+<td>10</td> 
+<td>7</td> 
+<td>3</td> 
+</tr> 
+<tr>
+<td>4</td><td> | 2</td><td>2</td><td>
+</td><td></td><td>7</td><td></td><td>10</td> 
+<td>32</td> 
+<td>20</td> 
+<td>3</td> 
+<td>10</td> 
+<td>7</td> 
+<td>13</td> 
+</tr> 
+
+				</table>
+			</div>
+			<div class="lowerbar">
+				<p>
+					Door Joren Servotte, Max van Houcke en Lars Houtman<br /><br />
+					Gegevensabstractie en -structuren<br />
+					I.o.v. prof Laenens & assistent Hofkens
+				</p>
+			</div>
+	</body>
+</html>

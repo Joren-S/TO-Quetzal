@@ -1,0 +1,42 @@
+# lijnen die beginnen met # worden genegeerd
+init
+# de vervaldatum staat achteraan in het formaat: jaar maand dag
+shot melk 20 2014 5 1
+shot melk 10 2015 6 10
+shot wit 10 2014 5 1
+shot zwart 5 2014 5 1
+shot bruin 20 2014 5 1
+honing 10 2014 5 1
+marshmallow 10 2014 5 1
+chili 5 2014 5 1
+gebruiker Tom Hofkens tom.hofkens@uantwerpen.be
+gebruiker John Doe john@doe.com
+werknemer Wim Hofkens 5
+werknemer Jane Doe 2
+
+# start het systeem op
+start
+
+# bestel op tijdstip 1 een chocolademelk gemaakt van een melkchocolade shot, chilipeper en een marshmallow
+1 bestel tom.hofkens@uantwerpen.be melk chili marshmallow
+
+# bestel op tijdstip 2 een chocolademelk gemaakt van een twee zwarte chocolade shots, chilipeper en een marshmallow
+2 bestel john@doe.com zwart chili zwart marshmallow
+
+# bestel eveneens op tijdstip 2 een chocolademelk gemaakt van een melkchocolade shot en een marshmallow
+2 bestel tom.hofkens@uantwerpen.be melk marshmallow
+
+# voeg 4 keer melkchocolade toe aan de stock
+3 stock shot melk 4 2014 5 1
+
+# voeg werknemer toe
+3 werknemer Erik Prins 2
+
+# voeg gebruiker toe
+3 gebruiker Kaat Wevers kw@wevers.com
+
+4 stock chili 10 2014 5 1
+
+# dit maakt een bestand log4.html
+5 log
+
